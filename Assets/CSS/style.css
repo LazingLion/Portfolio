@@ -1,0 +1,50 @@
+* {
+    box-sizing:border-box;
+}
+
+:root {
+    --primary:white;
+    --secondary:black;
+    --tertiary:rgb(68, 88, 120);
+    --dark:rgb(98, 109, 144);
+    --light:rgb(174, 193, 191);
+}
+
+
+body {
+    /* background-image: url(Images/star.gif); */
+    font-family:'Libre Baskerville', sans-serif;
+    background-color: #cccccc;
+    color:var(--primary);
+}
+
+
+header { 
+    height: 600px;
+    padding: 25% ;
+    background-image: url(Images/star.gif);
+    background-color: var(--tertiary);
+    text-align: center;
+}
+    
+
+}
+
+h1 {
+
+}
+
+h2{
+
+}
+
+
+h1, h2 {
+}
+
+
+nav {
+    height: 600px;
+ background-color:red;
+
+}
