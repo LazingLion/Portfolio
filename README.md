@@ -4,4 +4,8 @@ I will be improving this, and cyclable versions, though this Version is to commu
 
 ![alt text](Assets/images/ScreenShot.png "Screenshot!")
 
+Live Link!
 https://vendettistudios.github.io/UCB-Portfolio/
+
+Github!
+https://github.com/VendettiStudios/UCB-Portfolio
