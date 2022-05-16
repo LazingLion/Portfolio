@@ -15,6 +15,7 @@ html{
     background-color: rgba(0, 0, 0, 0.5);
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .navbar ul {
@@ -161,25 +162,40 @@ html{
     box-sizing: border-box;
     padding: 20px;
     margin-bottom: 50px;
+    text-align:center;
 
 }
 #about .headings{
     font-family: 'Comfortaa', sans-serif;
 }
-/* 
+
 #pic {
-    display: flex;
+    
 }
 
 #pic img{
-    width: 575px;
-    height: 400px;
-}  */
+    width: 300px;
+    height: 300px;
+    max-height:100%;
+    max-width:100%;
+    border-radius:50%;
+    margin-top:15px;
+} 
 
+
+ /* .fst-img {
+    position:relative;
+    border-radius:50%;
+} */
+/* .scnd-img {
+    position: relative;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+} */
 #intro {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align:center;
     padding: 35px;
 }
 
@@ -187,6 +203,10 @@ html{
     font-family:'Work Sans', sans-serif;
     font-size: 2rem;
     margin-bottom: 20px;
+}
+#intro p {
+    margin-left:20%;
+    margin-right:20%;
 }
 
 /* portfolio section */
@@ -207,11 +227,21 @@ html{
     box-sizing: border-box;
     -webkit-filter: invert(1);
     filter: invert(1);
+    align-items:center;
 }
 .gallery img{
-    width:800;
-    height:800;
-    margin: 10;
+    width:300px;
+    height:200px;
+    margin: 10px;
+    border-width:5px;
+    border-color:white;
+    border-style:double;
+}
+.gallery :first-of-type {
+    flex-basis:100%;
+    height:700px;
+    margin-left:10%;
+    margin-right:10%;
 }
 
 /* services section */
@@ -265,7 +295,7 @@ html{
     color:white;
 }
 #services .headings{
-font-family: 'Work Sans', sans-serif;
+font-family:'Comfortaa', sans-serif;
 }
 .form{
     display: flex;

@@ -8,21 +8,30 @@
 
 /* about */
 #pic img{
-    width:50px;
-    height:175px;
+    width:200px;
+    height:200px;
 }
 
 #intro h2
 {
     font-size: 1.5rem;
 }
+#intro p{
+    margin-left: 15%;
+    margin-right:15%;
+}
 
 /* Portfolio */
 .gallery img {
-    width:250px;
     height:150px;
     margin:10px;
 }
+
+#portfolio .gallery:first-of-type {
+    flex-basis:100%;
+    height:300px;
+}
+
 
 /* Contact */
 .input{
