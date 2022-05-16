@@ -8,8 +8,15 @@
 
 /* about */
 #pic img{
-    width:200px;
-    height:200px;
+}
+#pic .fst-img{
+    width:175px;
+    height:175px;
+}
+#pic .scnd-img {
+    padding-top:10px;
+    width:150px;
+    height: 150px;
 }
 
 #intro h2

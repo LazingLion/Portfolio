@@ -160,8 +160,8 @@ html{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 20px;
     margin-bottom: 50px;
+    margin-top:50px;
     text-align:center;
 
 }
@@ -170,28 +170,39 @@ html{
 }
 
 #pic {
-    
-}
+    display:flex;
+    margin-bottom: 50px;
+    flex-direction:column;
+    align-items:center;
+    margin-top:25px;
+} 
 
 #pic img{
-    width: 300px;
+    /* width: 300px;
     height: 300px;
     max-height:100%;
     max-width:100%;
     border-radius:50%;
-    margin-top:15px;
+    margin-top:15px; */
 } 
 
 
- /* .fst-img {
-    position:relative;
+ .fst-img {
+    position:absolute;
+    width: 300px;
+    height: 300px;
     border-radius:50%;
-} */
-/* .scnd-img {
+    z-index:1;
+ }
+.scnd-img {
     position: relative;
+    width:225px;
+    height: 225px;
+    padding-top:40px;
+    z-index:2;
     -webkit-filter: invert(1);
     filter: invert(1);
-} */
+}
 #intro {
     display: flex;
     flex-direction: column;
@@ -207,6 +218,7 @@ html{
 #intro p {
     margin-left:20%;
     margin-right:20%;
+    font-size:larger;
 }
 
 /* portfolio section */

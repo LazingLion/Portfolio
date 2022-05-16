@@ -11,17 +11,18 @@
 }
 
 /* about */
-#pic{
-    flex-direction:column;
-    align-items:center;
+#pic img{
+}
+#pic .fst-img{
+    width:225px;
+    height:225px;
+}
+#pic .scnd-img {
+    padding-top:10px;
+    width:190px;
+    height: 190px;
 }
 
-#pic img{
-    width: 200px;
-    height: 200px;
-    max-height:100%;
-    max-width:100%;
-}
 
 #intro h2{
     text-align:center;
