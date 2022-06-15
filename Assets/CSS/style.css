@@ -237,8 +237,8 @@ html{
     flex-wrap:wrap;
     justify-content: space-around;
     box-sizing: border-box;
-    -webkit-filter: invert(1);
-    filter: invert(1);
+    /* -webkit-filter: invert(1);
+    filter: invert(1); */
     align-items:center;
 }
 .gallery img{
