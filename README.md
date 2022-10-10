@@ -5,7 +5,7 @@ Rough Draft!
 ![alt text](Assets/images/ScreenShot.png "Screenshot!")
 
 Live Link!
- https://vendettistudios.github.io/Daniel-Holloway-UCB-Portfolio/
+https://vendettistudios.github.io/Portfolio-RD/
 
 Github!
-https://github.com/VendettiStudios/Daniel-Holloway-UCB-Portfolio/
+https://github.com/VendettiStudios/Portfolio-RD
