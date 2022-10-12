@@ -177,14 +177,6 @@ html{
     margin-top:25px;
 } 
 
-#pic img{
-    /* width: 300px;
-    height: 300px;
-    max-height:100%;
-    max-width:100%;
-    border-radius:50%;
-    margin-top:15px; */
-} 
 
 
  .fst-img {
@@ -200,8 +192,6 @@ html{
     height: 225px;
     padding-top:40px;
     z-index:2;
-    -webkit-filter: invert(1);
-    filter: invert(1);
 }
 #intro {
     display: flex;
