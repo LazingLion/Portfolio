@@ -1,17 +1,4 @@
-Welcome to my HTML/CSS Portfolio!
-A Pure CSS/HTML mockup!
-Rough Draft!
-
-![alt text](Assets/images/ScreenShot.png "Screenshot!")
-
-Live Link!
-https://vendettistudios.github.io/Portfolio-RD/
-
-Github!
-https://github.com/VendettiStudios/Portfolio-RD
-
-
-# Portfolio-RD
+# HTML-CSS-Portfolio
 ​
 ## Table of contents
 ​
